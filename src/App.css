@@ -3,7 +3,16 @@
   margin: 30px auto;
 }
 .App footer {
-  font-size: 11px;
+  font-size: 14px;
   margin: 10px 0;
   text-align: center;
+  color: #ffd5be;
+}
+.App footer a {
+  color: #ffedff;
+  text-decoration: none;
+}
+.App footer a:hover {
+  color: #ffedff;
+  text-decoration: underline;
 }

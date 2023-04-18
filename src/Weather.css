@@ -1,9 +1,13 @@
+body {
+  background: #ff487e;
+}
 .Weather {
   font-family: arial, sans-serif;
-  border: 1px solid #dadde1;
+  border: 1px solid #ffd5be;
   padding: 16px;
   border-radius: 4px;
-  color: rgb(135, 135, 135);
+  color: #ff487e;
+  background-color: #ffd5be;
 }
 
 .Weather h1 {
@@ -24,10 +28,26 @@
   line-height: 19px;
   list-style: none;
 }
-
+.Weather form .input {
+  background-color: #ffedff;
+  border-color: #ffedff;
+}
+.Weather form .input::placeholder {
+  color: #ff487e;
+  opacity: 0.8;
+}
+.Weather .btn {
+  background-color: #ff487e;
+  color: #ffd5be;
+  font-weight: 700;
+  font-size: 16px;
+}
+.Weather .btn:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
 .Weather .temperature {
   font-weight: bold;
-  color: rgb(33, 33, 33);
+  color: #ff487e;
   font-size: 64px;
   line-height: 64px;
   margin-left: 5px;
@@ -40,7 +60,7 @@
 }
 
 .Weather .unit {
-  color: rgb(33, 33, 33);
+  color: #ff487e;
   font-size: 16px;
   font-weight: 400;
   position: relative;
